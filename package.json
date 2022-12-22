@@ -34,7 +34,8 @@
     "genProto": "bash ./run-protoc.sh"
   },
   "dependencies": {
-    "base64-js": "^1.5.1"
+    "base64-js": "^1.5.1",
+    "protoc-gen-grpc-web": "^1.4.1"
   },
   "devDependencies": {
     "@types/google-protobuf": "^3.7.4",
