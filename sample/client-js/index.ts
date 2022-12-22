@@ -121,7 +121,7 @@ const client = new SampleServicePromiseClient("http://localhost:9000");
         }
         console.groupEnd();
       } else {
-        console.warn("Unknown error: ", e);
+        console.warn("Could not get err details: ", e);
       }
     }
   }

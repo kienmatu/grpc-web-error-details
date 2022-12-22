@@ -11,14 +11,14 @@ export class SampleServiceClient {
   sayHello(
     request: sample_pb.HelloRequest,
     metadata: grpcWeb.Metadata | undefined,
-    callback: (err: grpcWeb.Error,
+    callback: (err: grpcWeb.RpcError,
                response: sample_pb.HelloReply) => void
   ): grpcWeb.ClientReadableStream<sample_pb.HelloReply>;
 
   sayError(
     request: sample_pb.ErrorRequest,
     metadata: grpcWeb.Metadata | undefined,
-    callback: (err: grpcWeb.Error,
+    callback: (err: grpcWeb.RpcError,
                response: sample_pb.HelloReply) => void
   ): grpcWeb.ClientReadableStream<sample_pb.HelloReply>;
 
